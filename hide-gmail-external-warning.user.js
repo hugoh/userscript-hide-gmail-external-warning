@@ -8,8 +8,8 @@
 // @grant        GM_addStyle
 // ==/UserScript==
 
-(function() {
-    'use strict';
+(function () {
+  "use strict";
 
-    GM_addStyle('div.aau {display: none;}');
+  GM_addStyle("div.aau {display: none;}");
 })();
