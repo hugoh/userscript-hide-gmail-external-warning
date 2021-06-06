@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: Lint Code Base
-        uses: github/super-linter@v3
+        uses: github/super-linter@v4
         env:
           LINTER_RULES_PATH: /
           JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.js
