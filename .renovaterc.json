@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "config:base",
+    "group:all",
+    "schedule:weekends",
+    ":automergeAll",
+    ":automergeBranch"
+  ],
+  "timezone": "America/Chicago"
+}
